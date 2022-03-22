@@ -1,5 +1,5 @@
 const pathSrc = "./src";
-const pathDest = "./dist";
+const pathDest = "./docs";
 
 module.exports = {
   root: pathDest,
