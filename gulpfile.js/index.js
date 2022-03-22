@@ -23,10 +23,10 @@ const server = () => {
 const watcher = () => {
   watch(path.html.watch, html).on("all", browserSync.reload);
   watch(path.scss.watch, scss).on("all", browserSync.reload);
-  watch(path.js.watch, js).on("all", browserSync.reload);
-  watch(path.img.watch, img).on("all", browserSync.reload);
-  watch(path.sprite.watch, sprite).on("all", browserSync.reload);
-  watch(path.fonts.watch, fonts).on("all", browserSync.reload);
+  watch(path.js.watch, js);
+  watch(path.img.watch, img);
+  watch(path.sprite.watch, sprite);
+  watch(path.fonts.watch, fonts);
 }
 
 const build = series(

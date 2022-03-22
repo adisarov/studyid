@@ -1,6 +1,6 @@
 .nav {
   padding:0 35px 0 45px;
-  width: 320px;
+  max-width: 320px;
   background-color: var(--zircon-color);
 }
 
@@ -35,19 +35,18 @@
 .logo {
   display: inline-block;
   width: 100%;
-  margin-bottom: 61px;
+  margin: 60px 0;
 }
 .logo-img {
 }
 .menu {
   margin-bottom: 200px;
 }
-.list-reset {
-}
 .menu-item {
 }
 .menu-link {
   display: inline-block;
+  width: 100%;
   padding: 23px 0;
   font-weight: 400;
   font-size: 18px;
